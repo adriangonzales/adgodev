@@ -22,7 +22,7 @@ gems:
 
 paginate:	5
 
-url: "http://www.adgodev.com" # the base hostname & protocol for your site
+url: "http://adgodev.com" # the base hostname & protocol for your site
 baseurl: ""
 
 ga: UA-60015635-1
