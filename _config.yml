@@ -17,6 +17,9 @@ name: 'Adrian Gonzales'
 author: 'Adrian Gonzales'
 author_image: "/assets/images/adrian-gonzales.jpg"
 
+gems:
+  - jekyll-sitemap
+
 paginate:	5
 
 url: "http://adgodev.com" # the base hostname & protocol for your site
