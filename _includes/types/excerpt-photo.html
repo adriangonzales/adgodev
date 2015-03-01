@@ -1,0 +1,13 @@
+<article class="post type-photo" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+	<div class="article-item">
+		<header class="post-header">
+			<h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+		</header>
+
+		<a href="{{ post.url }}" itemprop="url"><img src="{{ post.image }}" class="photo"></a>
+
+		<div class="post-meta">
+			<time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+		</div>
+	</div>
+</article>

@@ -1,0 +1,15 @@
+---
+layout: photos
+title: Photos
+permalink: /photos/
+---
+
+<main class="content" role="main">
+	{% if site.tags.photo %}
+		<div class="container">
+			{% for post in site.tags.photo %}
+			{% include types/excerpt-photo.html %}
+			{% endfor %}
+		</div>
+	{% endif %}
+</main>

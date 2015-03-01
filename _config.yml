@@ -3,29 +3,31 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+title: "Adrian Gonzales"
+description: >
+   Exceeding expectations since 1982.
 
-email: a-mail@mail.mail
+email: adrian@virexmachina.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/ag_logo.png"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/header-bricks.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+name: 'Adrian Gonzales'
+author: 'Adrian Gonzales'
+author_image: "/assets/images/adrian-gonzales.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://adgodev.com" # the base hostname & protocol for your site
 baseurl: ""
+
+ga: UA-60015635-1
 
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
+    url:	https://twitter.com/virexmachina
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -39,7 +41,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/adriangonzales
     desc:	Fork me on github
     share_url:
     share_title:

@@ -1,0 +1,105 @@
+---
+---
+
+@import "syntax-highlighting";
+
+@import "bourbon/bourbon";
+
+.cf {
+  @include clearfix;
+}
+
+$rs: 16px;
+
+$font-serif: 'Source Code Pro', serif;
+$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+
+
+$brand-primary: #C62828;
+
+
+
+@mixin respond-to($breakpoint) {
+  @media only screen and (max-width: $breakpoint + px) {
+    @content;
+  }
+}
+
+// Only needed for syntax highlighting
+%vertical-rhythm {
+  margin-bottom: $rs;
+}
+
+main {
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "elements/type";
+@import "elements/header";
+@import "elements/pagination";
+@import "elements/posts";
+@import "elements/footer";
+
+@import "pages/about";
+
+.container.featured {
+  padding-bottom: 40px;
+}
+
+.post-template .content {
+  max-width: 700px;
+}
+
+.index-headline {
+  border-top: 1px solid #dededc;
+  margin: 0;
+  padding: 16px 0;
+  span {
+    color: #b3b3b1;
+    font-size: $rs / 8 * 5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.archive-template {
+  .index-headline.featured {
+    display: none;
+  }
+}
+
+
+.post-reading {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  line-height: 44px;
+  display: inline-block;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  font-family: $font-sans;
+  z-index: 999;
+}
+
+.tag-articleimage .post-reading {
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+#disqus_thread {
+  margin-top: 50px;
+}
+
+.post-tag-articleimage {
+  display: none;
+}
