@@ -11,14 +11,14 @@ email: adrian@virexmachina.com
 #blog logo
 logo: "/assets/images/ag_logo.png"
 # blog cover
-cover: "/assets/images/header-bricks.jpg"
+cover: "/assets/images/dtconstruction.jpg"
 
 name: 'Adrian Gonzales'
 author: 'Adrian Gonzales'
 author_image: "/assets/images/adrian-gonzales.jpg"
 
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap
 
 paginate:	5
 

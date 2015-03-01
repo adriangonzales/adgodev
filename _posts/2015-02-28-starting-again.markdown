@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting Again, Without WordPress"
 date:   2015-02-28
-tags: wordpress, jekyll, development
+tags: wordpress, jekyll, development, featured
 ---
 
 I've tried blogging for years. I wrote my first blog in ColdFusion in 2002, rewrote crude versions in PHP a few times before Matt dropped Wordpress on us at the local Blogger meetups, started extended writing habits on various web services and open source platforms from MovableType and Textpattern to LiveJornal and Tumblr.
