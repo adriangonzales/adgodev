@@ -17,8 +17,8 @@ Enter Jekyll: it's lightweight, dependent only on my local system for build and 
 
 Honestly, it also keeps me from getting lost in writing huge custom features and never finishing them. The static nature of Jekyll is a major shift in perspective from the realtime, dynamic webapp world I'm used to. I think that challenge to the status quo is a big asset.
 
-Its easy to get lost in the tool you use most. WordPress, Rails, Laravel, Node, Angular, it doesn't matter. There's usually an opinion of a "best" platform, but the truthfully none of them fit every scenario and some are better suited to others.
+Its easy to get lost in the tool you use most. WordPress, Rails, Laravel, Node, Angular, it doesn't matter. There's usually an opinion of a "best" platform, but truthfully none of them fit every scenario and some are better suited to others.
 
 > When all you have is a hammer, everything looks like a nail.
 
-Just like this site, sometimes Wordpress isn't the best fit. If I don't try new options, I'd never know. So, this is my forray into static site gen. Perhaps I'll get frustrated by the confines of runtime generation, maybe coloring in the lines is another way of defining the canvas. For now, I'm enjoying the flexiblity of a static site without all the fuss of manually managing site and layout assets. And when I do recommend WordPress, I'll confident that its the right tool for the job.
+Just like this site, sometimes Wordpress isn't the best fit. If I don't try new options, I'd never know. So, this is my forray into production usage of a static site generator. Perhaps I'll get frustrated by the confines of runtime generation, or, maybe coloring in the lines is another way of defining the canvas. For now, I'm enjoying the flexiblity of a static site without all the fuss of manually managing site assets and layout changes. And when I do recommend WordPress, I'll be confident that it's the right tool for the job.
