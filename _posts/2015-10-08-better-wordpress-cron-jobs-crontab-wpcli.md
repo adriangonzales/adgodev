@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Better Wordpress Cron Jobs with crontab and WP CLI
