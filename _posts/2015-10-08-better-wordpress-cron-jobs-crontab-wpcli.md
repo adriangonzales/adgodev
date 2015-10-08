@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Better Wordpress Cron Jobs with crontab and WP CLI"
-date:   2015-10-08
-tags: wordpress, cron, wpcli
+title: Better Wordpress Cron Jobs with crontab and WP CLI
+date: 2015-10-08T00:00:00.000Z
+tags: "wordpress, cron, wpcli"
 published: true
 ---
+
 
 WP Cron jobs can be powerful tools, allowing you to schedule tasks that need to happen automatically. Unfortunately, by default, this only runs on a page visit. 
 
